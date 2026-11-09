@@ -15,3 +15,10 @@
 - The two datasets have 0 overlapping days, so I did not merge them
 - Bug I hit: str.contains("Patna") also matched Visakhapatnam, so I used an exact match
 - Error I hit: city_day.csv was extracted as a folder, which caused a PermissionError
+
+## Day 3
+- Main dataset: calendar has 1,126 days, 1 missing (2025-01-01), filled by interpolation (flagged was_filled)
+- Rule: fill gaps of 3 days or less only
+- Older dataset: AQI missing by year: (paste your numbers)
+- Longest gap in older dataset: (start to end, number of days)
+- Saved data/patna_clean.csv
